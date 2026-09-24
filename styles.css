@@ -31,12 +31,60 @@ section {
 }
 
 .flex-item {
-    background: #7a2b3a;
-    color: #fff;
+    background: #ffffff;
+    color: #E60000;
     border-radius: 6px; 
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     font-weight: bold;
     font-size: 1.1rem;
-    transition: transform 0.2s ;  ease 
+    transition: transform 0.2s ease;
 }
+
+.flex-item:hover {
+    transform: scale(1.05);
+}
+
+#Contacto {
+    justify-content:space-evenly;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #E5E5E5;
+    border-radius: 8px;
+    padding: 15px 25px;
+}
+
+.navbar #foto1 {
+    height: 60px;
+}
+
+.navbar #foto2 {
+    height: 30px;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.navbar .nav-button {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.navbar .nav-links a {
+    color: #1B365D;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.navbar .nav-links a:hover {
+    color: #E60000;
+}
+
